@@ -1,20 +1,7 @@
 const content = document.getElementById("content");
 const sidebarItems = document.querySelectorAll(".sidebar li");
-// const themeToggle = document.getElementById("themeToggle");
 const body = document.body;
 
-// 🌗 Theme toggle
-// if (localStorage.getItem("theme") === "dark") {
-//   body.classList.add("dark");
-//   themeToggle.textContent = "☀️";
-// }
-
-// themeToggle.addEventListener("click", () => {
-//   body.classList.toggle("dark");
-//   const isDark = body.classList.contains("dark");
-//   themeToggle.textContent = isDark ? "☀️" : "🌙";
-//   localStorage.setItem("theme", isDark ? "dark" : "light");
-// });
 
 // 🧮 Topics
 const topics = {
