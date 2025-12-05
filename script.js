@@ -19,7 +19,7 @@ const body = document.body;
 // 🧮 Topics
 const topics = {
   kinematics: `
-    <h1 style="font-weight: 300; background:black;opacity:0.8;text-align:center; padding:10px;border-radius:30px; display:inline-block;">Kinematics</h1>
+    <h1 style="font-weight: 300; background:black;opacity:0.8;text-align:center; padding:10px;border-radius:30px; display:inline-block; background-color:white;color:black;">Kinematics</h1>
     <div class="card">
       <h3>1️. Final Velocity Formula: v = u + a·t</h3>
       <input type="number" id="u" placeholder="Initial velocity (u) style='color:white;'">
@@ -38,7 +38,7 @@ const topics = {
       <p id="resultDisplacement"></p>
     </div>
     <div class="card">
-      <h3>2️ .Acceleration Formula: a = (v - u) / t</h3>
+      <h3>3.Acceleration Formula: a = (v - u) / t</h3>
       <input type="number" id="v3" placeholder="Final velocity (v)">
       <input type="number" id="u3" placeholder="Initial velocity (u)">
       <input type="number" id="t3" placeholder="Time (t)">
@@ -46,7 +46,7 @@ const topics = {
       <p id="resultAcceleration"></p>
     </div>
     <div class="card">
-    <h3>3.potential Eneregy:PE =m.g.h</h3>
+    <h3>4.potential Eneregy:PE =m.g.h</h3>
     <input type="number" id="m4" placeholder="mass(m)in gram">
     <input type="number" id="h4" placeholder="height in meter(h)">
     <button class="calc" onclick="potentialEnergy()">Calculate</button>
@@ -55,7 +55,7 @@ const topics = {
   `,
 
   gravitation: `
-    <h1 style="font-weight: 300; background:black;opacity:0.8; padding:10px;text-align:center; border-radius:30px; display:inline-block;">Gravitation</h1>
+    <h1 style="font-weight: 300; background:black;opacity:0.8; padding:10px;text-align:center; border-radius:30px; display:inline-block;background-color:white;color:black;">Gravitation</h1>
     <div class="card">
       <h3>F = G·(m₁·m₂)/r²</h3>
       <input type="number" id="m1" placeholder="Mass 1 (kg)">
@@ -67,7 +67,7 @@ const topics = {
   `,
 
   magnetism: `
-    <h1 style="font-weight: 300; background:black;opacity:0.8;text-align:center; padding:10px; border-radius:30px; display:inline-block;">Magnetism</h1>
+    <h1 style="font-weight: 300; background:black;opacity:0.8;text-align:center; padding:10px; border-radius:30px; display:inline-block;background-color:white;color:black;">Magnetism</h1>
     <div class="card">
       <h3>F = B·I·l·sinθ</h3>
       <input type="number" id="B" placeholder="Magnetic Field (T)">
@@ -80,7 +80,7 @@ const topics = {
   `,
 
   optics: `
-    <h1 style="font-weight: 300; background:black;opacity:0.8;text-align:center;  padding:10px;border-radius:30px; display:inline-block; margin: 0 auto;">Optics</h1>
+    <h1 style="font-weight: 300; background:black;opacity:0.8;text-align:center;  padding:10px;border-radius:30px; display:inline-block; margin: 0 auto;background-color:white;color:black;">Optics</h1>
     <div class="card">
       <h3>1/f = 1/u + 1/v</h3>
       <input type="number" id="uOpt" placeholder="Object distance (u)">
@@ -91,7 +91,7 @@ const topics = {
   `,
 
   thermodynamics: `
-    <h1 style="font-weight: 300;  padding:10px;background:black;opacity:0.8; text-align:center; border-radius:30px; display:inline-block; margin-bottom:10px;">Thermodynamics</h1>
+    <h1 style="font-weight: 300;  padding:10px;background:black;opacity:0.8; text-align:center; border-radius:30px; display:inline-block; margin-bottom:10px;background-color:white;color:black;">Thermodynamics</h1>
     <div class="card">
       <h3>Q = m·c·ΔT</h3>
       <input type="number" id="m" placeholder="Mass (kg)">

@@ -103,7 +103,11 @@ main {
   border:2px solid black;
   opacity: 0.85;
 }
-
+.card:hover {
+  transform: scale(1.25);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 20px rgba(247, 248, 248, 0.989);
+}
 input[type="number"] {
   padding: 6px;
   margin: 5px 5px 10px 0;
